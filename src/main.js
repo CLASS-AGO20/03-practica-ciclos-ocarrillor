@@ -26,6 +26,14 @@ export default class App {
         }while(div > 0);
         return acum;
     }
+
+    elevar(numero, potencia){
+        let elev = numero;
+        for(let i = potencia; i > 1; i--){
+            elev = elev * numero;
+        }
+        return elev;
+    }
 }
 
 let app = new App();
@@ -38,3 +46,6 @@ console.log(app.convertirAString(5));
 
 //Demostracion de la funcion obtenerDivisibles.
 console.log(app.obtenerDivisibles(6));
+
+//Demostracion de la funcion elevar.
+console.log(app.elevar(2,5));
