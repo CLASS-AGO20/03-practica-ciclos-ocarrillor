@@ -15,6 +15,17 @@ export default class App {
         }
         return cadena;
     }
+
+    obtenerDivisibles(numero){
+        let div = numero, acum=0;
+        do{
+            if(numero % div == 0){
+                acum++;
+            }
+            div--;
+        }while(div > 0);
+        return acum;
+    }
 }
 
 let app = new App();
@@ -24,3 +35,6 @@ console.log(app.factorial(5));
 
 //Demostracion de la funcion convertirAString.
 console.log(app.convertirAString(5));
+
+//Demostracion de la funcion obtenerDivisibles.
+console.log(app.obtenerDivisibles(6));
