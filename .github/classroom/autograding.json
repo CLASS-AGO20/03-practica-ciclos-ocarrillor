@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Factorial",
+      "setup": "npm install",
+      "run": "npm run test factorial.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Convertir a string",
+      "setup": "",
+      "run": "npm run test convertirAString.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Obtener divisibles",
+      "setup": "",
+      "run": "npm run test obtenerDivisibles.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Elevar",
+      "setup": "",
+      "run": "npm run test elevar.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
