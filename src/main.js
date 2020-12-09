@@ -6,9 +6,21 @@ export default class App {
         }
         return fact;
     }
+
+    convertirAString(numero){
+        let cadena = "";
+        while(numero > 0){
+            cadena = cadena + "*";
+            numero--;
+        }
+        return cadena;
+    }
 }
 
 let app = new App();
 
 //Demostracion de la funcion factorial.
 console.log(app.factorial(5));
+
+//Demostracion de la funcion convertirAString.
+console.log(app.convertirAString(5));
